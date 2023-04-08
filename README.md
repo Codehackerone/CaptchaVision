@@ -7,6 +7,9 @@ The project uses a combined dataset of six different captcha datasets, which inc
 
 # Architecture
 
+![Untitled Diagram drawio-10](https://user-images.githubusercontent.com/64341057/230733270-89fb0e95-8517-4a2e-b927-6b1854ac11be.png)
+
+
 
 The LACC (Label Combination Classifier) architecture is a PyTorch neural network used for image-to-text translation tasks. The architecture consists of an encoder, a converter, and several fully-connected layers.
 
