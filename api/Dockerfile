@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 80
 
 # Run the command to start the app
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "index:app", "--host", "0.0.0.0", "--port", "80"]
