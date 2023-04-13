@@ -1,0 +1,24 @@
+{
+  "name": "Captcha Recognition Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Recognize captchas using a hosted API",
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icon-16.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "fileSystemProvider",
+    "http://3.123.22.32:8000/"
+  ]
+}

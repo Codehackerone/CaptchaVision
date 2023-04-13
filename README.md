@@ -2,6 +2,17 @@
 # Introduction
 This project is a captcha recognizer that uses the LACC (Label Combination Classifier) deep learning model to perform image-to-text translation tasks. The LACC model is implemented using PyTorch and the EfficientNetV2-S backbone architecture for feature extraction from the input images. The converter combines the extracted features into a smaller representation that is suitable for text prediction. The converted features are then passed through three fully connected layers to predict the final text output. The output of the LACC model is a tensor that represents a probability distribution over the set of possible characters at each position in the predicted text.
 
+# API Reference, Deployment and Chrome Extension
+
+## API Reference
+This API provides a captcha recognition service using the LACC model made using FAST API. 
+[API Reference](./api/readme.md)
+
+## Chrome Extension
+This Chrome Extension provides a captcha recognition service using the LACC model made using FAST API.
+[Chrome Extension](./chrome-extension/readme.md)
+
+
 # Datasets
 The project uses a combined dataset of six different captcha datasets, which include various font styles and character sets. The dataset is divided into training, validation, and testing sets, with a ratio of 80:10:10, respectively.
 
