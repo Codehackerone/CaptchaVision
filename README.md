@@ -6,11 +6,11 @@ This project is a captcha recognizer that uses the LACC (Label Combination Class
 
 ## API Reference
 This API provides a captcha recognition service using the LACC model made using FAST API. 
-[API Reference](./api/readme.md)
+[API Reference](api/readme.md)
 
 ## Chrome Extension
 This Chrome Extension provides a captcha recognition service using the LACC model made using FAST API.
-[Chrome Extension](./chrome-extension/readme.md)
+[Chrome Extension](chrome-extension/readme.md)
 
 
 # Datasets
