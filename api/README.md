@@ -43,5 +43,15 @@ Request
   status: a string indicating the status of the API ("ok" if everything is running smoothly)
 ```
 
+## Run docker instance
+
+This will create a Docker image with the name "capcha-reognizer" based on the instructions in the Dockerfile.
+
+`docker build -t capcha-recognizer .`
+
+This will start a container from the "capcha-recognizer" image and forward traffic from the host machine's port 80 to the container's port 80, where the app is running.
+`docker run -p 80:80 capcha-recognizer`
+
+
 ## Deployment
 The API is deployed on AWS Instance and can be accessed at []
